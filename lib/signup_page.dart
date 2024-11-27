@@ -141,13 +141,13 @@ class SignUpPage extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => GoogleSignInPage()),
                   );
                 },
-                // icon: const Icon(Icons.g_mobiledata, color: Colors.white),
-                Image(
-                  image: AssetImage('assets/icons-google.png'),
-                  color: Colors.white,
-                  height: 24,
-                  width: 24,
-                ),
+                icon: const Icon(Icons.g_mobiledata, color: Colors.white),
+                // Image(
+                //   image: AssetImage('assets/icons-google.png'),
+                //   color: Colors.white,
+                //   height: 24,
+                //   width: 24,
+                // ),
                 label: const Text(
                   "Sign up with Google",
                   style: TextStyle(color: Colors.white, fontSize: 16),
